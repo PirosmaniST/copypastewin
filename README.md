@@ -9,6 +9,12 @@ All data stays local. No account, no telemetry.
 
 Developed by **David Pirosmani** — [pirosmani.biz/ext](https://pirosmani.biz/ext/)
 
+## Screenshots
+
+![CopyPasteWin clipboard history window](img/CopyPasteWin-RIGHT-04.jpg)
+![CopyPasteWin context menu with the Add to CopyPasteWin option](img/CopyPasteWin-RIGHT-02.jpg)
+![CopyPasteWin installed in the browser extensions menu](img/CopyPasteWin-RIGHT-05.jpg)
+
 ## Features
 
 | Feature | What it does | Where |
@@ -68,10 +74,15 @@ Microsoft Edge, Google Chrome and any Chromium-based browser. Built on Manifest 
 
 **Can CopyPasteWin read my clipboard without my knowledge?**
 No. Browser security rules prohibit extensions from reading the clipboard silently or in the
-background. CopyPasteWin only stores an item at the moment you actively copy it.
+background. CopyPasteWin only stores an item at the moment you actively copy it — with Ctrl+C or
+from the context menu. The browser address bar is equally off-limits to extensions.
 
 **Does CopyPasteWin send my data to a server?**
 No. Everything stays in your browser's local storage. Nothing is sent to any server.
+
+**Where is my data stored?**
+All data is stored locally inside the browser on the current device. There is no cloud storage
+and no synchronization between devices.
 
 **Does it require registration?**
 No. No account, no sign-in.
